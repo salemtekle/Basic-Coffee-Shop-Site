@@ -1,5 +1,5 @@
 body {
-  background-color: #f8f3ef;
+  background-color: white;
   color: rgb(0, 0, 0);
   font-family: 'comfortaa', comfortaa;
 }
@@ -7,11 +7,11 @@ body {
   background-color: black
 }
 .navbar-brand, .nav-link {
-  color: white !important;
+  color: black !important;
   font-weight: bold;
 }
 .hero { 
-  background-color: rgb(255, 255, 255);
+  background-color: black(255, 255, 255);
   padding: 60px 20px;
   text-align: center;
 }
@@ -20,10 +20,10 @@ body {
   margin-bottom: 10px;
 }
 .menu-item {
-  background-color: black;
+  background-color: #f8f3ef;
   border-radius: 8px;
   box-shadow: 0 2px 5px white(0,0,0,0.1);
-  padding: 15px;
+  padding: 40px;
   margin-bottom: 15px;
 }
 footer {
@@ -33,4 +33,11 @@ footer {
   text-align: center;
   margin-top: 40px;
 }
-
+.menu-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.menu-item {
+  text-align: center;
+}
