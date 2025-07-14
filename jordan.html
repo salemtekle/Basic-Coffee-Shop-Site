@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Jordan Shoes</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Exclusive Shoes</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon text-dark"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="cart.html">Cart 🛒</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+
+    <h1 class="text-center">Jordan Shoe Options</h1>
+
+    <p class="text-center">Here are our best Jordans.</p>
+
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <!-- Shoe 1 -->
+
+      <div class="col">
+
+        <div class="card h-100">
+
+          <img src="https://weartesters.com/wp-content/uploads/2015/05/Air-Jordan-1-Retro-High-OG-Chicago-Official-Look-Release-Info-3.jpg" class="card-img-top" alt="Jordan 1 White">
+
+          <div class="card-body">
+
+            <h5 class="card-title"> Jordan 1 Retro</h5>
+
+            <p class="card-text">$180.00</p>
+            <button class="btn btn-primary" onclick="addToCart('Jordan 1 Retro', 100)">Add to Cart</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- Shoe 2 -->
+
+      <div class="col">
+
+        <div class="card h-100">
+
+          <img src="https://www.crepslocker.com/cdn/shop/files/air-jordan-4-retro-sb-pine-green-dr5415-103-side.jpg?v=1698147807" class="card-img-top" alt="Jordan Retro">
+
+          <div class="card-body">
+
+            <h5 class="card-title">Air Jordan 4 Retro ‘SB Pine Green’</h5>
+
+            <p class="card-text">$525.00</p>
+            <button class="btn btn-primary" onclick="addToCart('Air Jordan 4 Retro', 100)">Add to Cart</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- Shoe 3 -->
+
+      <div class="col">
+
+        <div class="card h-100">
+
+          <img src="https://i.ebayimg.com/00/s/ODAwWDEyMDA=/z/s7QAAOSwgZBkDqRR/$_57.JPG?set_id=8800005007" class="card-img-top" alt="Jordan Flight">
+
+          <div class="card-body">
+
+            <h5 class="card-title">Jordan Retro OG Fire Red</h5>
+
+            <p class="card-text">$210.00</p>
+            <button class="btn btn-primary" onclick="addToCart('Jordan Retro OG Fire Red', 100)">Add to Cart</button>
+
+          </div>
+
+        </div>
+
+      </div>
+            <!-- Shoe 4 -->
+
+      <div class="col">
+
+        <div class="card h-100">
+
+          <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c6a45a2d-0049-4495-b8c3-e0ad0426be26/WMNS+AIR+JORDAN+1+MID.png" class="card-img-top" alt="Jordan Retro">
+
+          <div class="card-body">
+
+            <h5 class="card-title">Air Jordan 1 Mid-Black</h5>
+
+            <p class="card-text">$135.00</p>
+            <button class="btn btn-primary" onclick="addToCart('Air Jordan 1 Mid-Black', 100)">Add to Cart</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+            <!-- Shoe 5 -->
+
+      <div class="col">
+
+        <div class="card h-100">
+
+          <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4fc32ee6-a27e-4710-905f-e46152c2d6c4/JORDAN+3+MID+TD.png" class="card-img-top" alt="Jordan Retro">
+
+          <div class="card-body">
+
+            <h5 class="card-title">Jordan 3 Mid TD (Men's Football Cleats)</h5>
+
+            <p class="card-text">$125.65</p>
+            <button class="btn btn-primary" onclick="addToCart('Jordan 3 Mid TD', 100)">Add to Cart</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+            <!-- Shoe 6 -->
+
+      <div class="col">
+
+        <div class="card h-100">
+
+          <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/36389c57-4277-406d-8c77-f0d2d9dee475/WMNS+AIR+JORDAN+1+LOW+SE.png" class="card-img-top" alt="Jordan Retro">
+
+          <div class="card-body">
+
+            <h5 class="card-title">Air Jordan 1 Low - SE</h5>
+
+            <p class="card-text">$105.00</p>
+            <button class="btn btn-primary" onclick="addToCart('Air Jordan 1 Low - SE', 100)">Add to Cart</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+<li class="nav-item">
+  <a class="nav-link" href="cart.html">Cart 🛒</a>
+      
+
+    </div>
+
+  </div>
+<script src="cart.js"></script>
+</body>
+
+</html>
+

@@ -1,17 +1,17 @@
 body {
   background-color: #f8f3ef;
-  color: #3e2c23;
-  font-family: 'Segoe UI', sans-serif;
+  color: rgb(0, 0, 0);
+  font-family: 'comfortaa', comfortaa;
 }
 .navbar {
-  background-color: #6f4e37;
+  background-color: black
 }
 .navbar-brand, .nav-link {
-  color: #fff !important;
+  color: white !important;
   font-weight: bold;
 }
-.hero {
-  background-color: #d6ccc2;
+.hero { 
+  background-color: rgb(255, 255, 255);
   padding: 60px 20px;
   text-align: center;
 }
@@ -20,15 +20,15 @@ body {
   margin-bottom: 10px;
 }
 .menu-item {
-  background-color: #fff;
+  background-color: black;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px white(0,0,0,0.1);
   padding: 15px;
   margin-bottom: 15px;
 }
 footer {
-  background-color: #6f4e37;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 20px 10px;
   text-align: center;
   margin-top: 40px;
